@@ -4,6 +4,7 @@
     font-size: 62.5%;
     font-family: 'Red Hat Display', sans-serif;
     --color-text: #717FA6;
+    --title-color: #1F2E55;
 }
 
 .back-img{
@@ -37,6 +38,7 @@
     font-size: 2.2rem;
     font-weight: 900;
     margin-bottom: 1.6rem;
+    color: var(--title-color);
 }
 
 .about p{
@@ -48,9 +50,79 @@
 
 .plan{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F9FF;
+    width: 27.9rem;
+    height: 8.1rem;
+    margin-left: 1rem;
+    border-radius: 1.1rem;
+    margin-bottom: 2rem;
 }
 
 .plan img{
     width: 1.7rem;
     height: 1.8rem;
+    
+}
+.plan span{
+    background-color: #DFE6FB;
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-left: -2rem;
+}
+
+.info-price{
+    padding-left: 2rem;
+    margin-top: 5.5rem;
+    padding-right: 4rem;
+}
+
+.info-price h2{
+    color: var(--title-color);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 900;
+}
+
+.info-price p{
+    color: var(--color-text);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-top: .5rem;
+}
+
+.plan a{
+    color: #382AE1;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    font-weight: 700;
+}
+
+.payment-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+}
+
+.payment-btn a{
+    text-decoration: none;
+}
+
+.payment-btn a:nth-child(1){
+    color: #fff;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    font-size: 1.5rem;
+    font-weight: 900;
+    width: 27.9rem;
+    border-radius: 1.1rem;
+    padding-block: 1.5rem;
+}
+
+.payment-btn a:nth-child(2){
+    font-size: 1.5rem;
+    color: var(--color-text);
+    font-weight: 900;
 }
